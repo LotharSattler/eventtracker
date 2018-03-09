@@ -21,8 +21,10 @@
     </style>
 </head>
 <body>
+<%--@elvariable id="event" type="com.pluralsight.model.Event"--%>
 <form:form commandName="event">
-    <form:errors path="*" cssClass="errorblock" element="div"/>
+    <form:errors path="name" cssClass="errorblock" element="div"/>
+    <%--@declare id="textinput1"--%>
     <label for="textinput1">Enter Minutes:</label>
     <form:input path="name" cssErrorClass="error"/>
     <form:errors path="name" cssClass="error"/>
