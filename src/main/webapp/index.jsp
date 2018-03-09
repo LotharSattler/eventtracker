@@ -7,6 +7,6 @@
     <title>Index</title>
 </head>
 <body>
-<h1>Hello world!</h1>
+<h1>index.jsp</h1>
 </body>
 </html>
